@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+
+
+
+        <title>user</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div id="testimonials" class="text-center">
+  <div class="overlay">
+    <div class="container">
+      <div class="section-title">
+        <h2>USER PAGE</h2>
+        <hr>
+      </div>
+    <div class="col-md-8 col-md-offset-2">
+      <form name="sentMessage" id="contactForm" action="registercar">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="userid" class="form-control" placeholder="User ID" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          
+                <div class="col-md-6">
+            <div class="form-group">
+              <input type="date" name="purchasedate" class="form-control" placeholder = "Date of Purchase(yyyy/mm/dd)" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+            
+            <br><br><br><br>
+          
+               <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="bill" class="form-control" placeholder="Bill No." required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>  
+            
+            
+            <div class="col-md-6">
+                <div class="form-group" style="font-size: 18px;">
+              <select name="model">
+                    <option selected disabled>MODEL</option>
+                    <option value="101">Grand Cherokee</option>
+                    <option value="102">Grand Cherokee SRT</option>
+                    <option value="103">Wrangler Unlimited</option>
+                    <option value="104">Jeep Compass</option>
+                </select>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+            
+          
+            
+         <br><br><br>
+          
+        </div>
+        <div id="success"></div>
+        <input type="submit" class="btn btn-custom btn-lg" value="REGISTER">
+      </form>
+    </div>
+    </div>
+  </div>
+</div>
+    </body>
+</html>
