@@ -11,7 +11,7 @@ public class DBService
     static{
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jeep","root","01121998");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/jeep","root","*******");
             if(con!=null)
                  {
              System.out.println("Connection is OK.");   
